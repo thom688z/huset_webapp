@@ -1,0 +1,106 @@
+/*generelle indstillinger */
+
+html {}
+
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    background-color: white;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#top{
+
+background-color: black;
+
+}
+
+header {
+
+
+}
+
+
+img {
+
+max-width: 100%;
+
+}
+
+/*footer*/
+
+footer {
+    background-color: black;
+}
+
+footer img {
+
+    width: 20%;
+    padding-left: 1.8em;
+
+}
+
+footer ul {
+
+list-style-type: none;
+color: white;
+
+}
+
+footer li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+ }
+
+footer h2 {
+
+color: white;
+font-size: 0.7em;
+padding-left: 1.5em;
+font-weight: bold;
+
+}
+
+.h {
+
+height: 1.1em;
+
+}
+
+.column_content {
+
+display: flex;
+flex-direction: column;
+}
+
+/*social*/
+
+footer .fa {
+    padding: 20px;
+    font-size: 1em;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .fa-facebook {
+    background: black;
+    color: white;
+    margin-right: .5em;
+}
+
+footer .fa-instagram {
+    background: black;
+    color: white;
+}
+
+footer .fa-twitter {
+    background: black;
+    color: white;
+}
+
+footer .fa-flickr {
+    background: black;
+    color: white;
+}
+

@@ -1,0 +1,72 @@
+/* Styles for Advanced Menu */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#advanced-nav {
+
+    background-color: white;
+    padding-left: 3em;
+
+}
+
+.sticky .content {
+    padding-top: 60px;
+}
+
+.advanced-nav li a {
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+
+.icon {
+
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 1.5em;
+    font-size: 1.8em;
+
+}
+
+.button-text {
+    font-size: 1.8em;
+}
+
+.button-text span {
+
+    display: block;
+    font-size: 40%;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+@media screen and (min-width: 1em) {
+
+
+    .advanced-nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+
+    .advanced-nav li {
+
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 12em;
+
+    }
+
+
+}

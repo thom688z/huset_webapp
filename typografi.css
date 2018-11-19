@@ -1,0 +1,60 @@
+html {
+
+font-family: 'Roboto', sans-serif;
+font-size: 1em;
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+H1 {
+    font-size: 5rem;
+    margin-top: 3em;
+    font-weight: bolder;
+    text-align: center;
+    color: #302320;
+}
+
+H2 {
+    font-size: 2rem;
+    margin-top: 3em;
+    font-weight: bolder;
+    text-align: center;
+    color: #302320;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+
+P {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    max-width: 50ch;
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+a: {
+
+font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    max-width: 50ch;
+
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 375px) {
+
+#velkommen h1 {
+
+font-size: 2em;
+
+    }
+
+}
